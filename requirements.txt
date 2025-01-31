@@ -23,7 +23,7 @@ facexlib
 lmdb
 pyyaml
 scipy
-tb-nightly
+#tb-nightly
 torchvision
 tqdm
 yapf
