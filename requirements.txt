@@ -18,7 +18,7 @@ pillow==10.0.0
 #opennsfw2==0.10.2
 protobuf==4.23.4
 #tqdm==4.65.0
-basicsr
+#basicsr
 facexlib
 lmdb
 pyyaml
