@@ -7,8 +7,8 @@ insightface
 psutil
 tk
 customtkinter
-tkinterdnd2==0.3.0; sys_platform != 'darwin' and platform_machine != 'arm64'
-tkinterdnd2-universal==1.7.3; sys_platform == 'darwin' and platform_machine == 'arm64'
+tkinterdnd2; sys_platform != 'darwin' and platform_machine != 'arm64'
+tkinterdnd2-universal; sys_platform == 'darwin' and platform_machine == 'arm64'
 pillow
 #onnxruntime==1.15.1; python_version != '3.9' and sys_platform == 'darwin' and platform_machine != 'arm64'
 #onnxruntime-coreml==1.13.1; python_version == '3.9' and sys_platform == 'darwin' and platform_machine != 'arm64'
@@ -23,7 +23,7 @@ facexlib
 lmdb
 pyyaml
 scipy
-#tb-nightly
+tb-nightly
 torchvision
 tqdm
 yapf
